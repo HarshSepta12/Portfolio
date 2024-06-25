@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
+}
+body{
+  background-color: black;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.background {
+  background: url("post1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  box-sizing: border-box;
+  padding: 32px;
+}
+
+a {
+  text-decoration: none;
+  color: beige;
+}
+#li-nav {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  font-size: 20px;
+  margin-right: 10px;
+}
+#nav-center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  /* margin-top: 2rem; */
+}
+.self {
+  color: beige;
+  margin-top: 12rem;
+  margin-left: 1rem;
+}
+#name-Text {
+  font-size: 20px;
+}
+#name {
+  font-size: 36px;
+}
+#developer {
+  color: aqua;
+  font-size: 23px;
+}
+#hire {
+  background-color: aqua;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  width: 122px;
+  font-size: 20px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.about-section-parent {
+  padding: 32px;
+  margin-left: -15px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 60px;
+  margin-top: 200px;
+}
+#my-img {
+  max-width: 300px;
+  width: 500px;
+  /* height: 200px; */
+  border-radius: 10px;
+  margin-top: 90px;
+}
+
+.line-parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+span {
+  border-bottom: 10px;
+}
+.line {
+  border-bottom: 1px solid white;
+  width: 12%;
+  
+}
+
+.about-section-parent .part2 .line-parent {
+  text-align: center;
+  margin-top: 32px;
+}
+
+.part2  h1{
+  text-align: center;
+}
+.part2 p{
+  margin-top: 2rem;
+  width: 100%;
+  max-width: 500px;
+  font-size: 20px;
+}
+#resume{
+  border-radius: 10px;
+  border: none;
+  background-color: aqua;
+  padding: 15px;
+  font-size: 20px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.Skill-parent{
+  margin-top: 335px;
+}
+.Skill-parent .skill-part1{
+  text-align: center;
+  margin-bottom: 20px;
+  color: aqua;
+}
+.Skill-parent img{
+  width: 65px;
+  height: 65px;
+}
+.skill-part2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 90px;
+}
+.Education{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 400px;
+  gap: 50px;
+}
+.edu-part1,.edu-part2, .edu-part3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.edu-part1 .edu-part1-1{
+  margin-top: 20px;
+}
+.edu-part1 h1{
+  color: aqua;
+}
+
+.contact-me-parent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 150px;
+  margin-top: 150px;
+  margin-bottom: 20px;
+}
+
+.contact-me-parent a img{
+  width: 50px;
+  height: 50px;
+  background-color: beige;
+  border-radius: 10px;
+  margin-top: 40px;
+}
+.contact-me-part1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  
+}
+.contact-me-parent .contact-me-part1 h1{
+  color: aqua;
+}
+
+.contact-inner{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+footer{
+  /* width: 100%; */
+  border-top: 2px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+footer h2{
+  margin-top: 36px;
+}
+footer a img{
+  width: 30px;
+  height: 30px;
+  background-color: beige;
+  border-radius: 10px;
+  margin-top: 40px;
+}
+
+
+@media screen and (max-width: 530px ) {
+  .about-section-parent{
+    flex-direction: column;
+  }
+  #resume{
+    margin-left: 10rem;
+    margin-top: 3rem;
+  }
+  #li-nav{display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  }
+  .part2 p{
+    text-align: center;
+  }
+}
