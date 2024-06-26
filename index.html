@@ -7,16 +7,18 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="background">
+    <div class="background" id="home">
       <header>
         <nav>
           <ul id="nav-center">
             <h1 style="color: aqua; margin-left: 1rem;">Portfolio</h1>
             <li id="li-nav">
-              <a href="">Home</a>
-              <a href="">About</a>
-              <a href="">Project</a>
-              <a href="">Contact</a>
+              <a href="#home">Home</a>
+              <a href="#about">About</a>
+              <a href="#skill">Skill</a>
+              <a href="#education">Education</a>
+              <a href="#project">Project</a>
+              <a href="#contact">Contact</a>
             </li>
           </ul>
         </nav>
@@ -34,27 +36,25 @@
       <div class="part1">
         <img id="my-img" src="hARSH.JPG" alt="">
       </div>
-      <div class="part2">
+      <div class="part2" id="about">
         <h1>About Me</h1>
         <div class="line-parent">
           <h1 class="line"></h1>
           <span>Who I am</span>
           <h1 class="line"></h1>
         </div>
-        <p>I am Harsh Septa. I am from Indore, Madhya Pradesh. Currently, I am pursuing my master's in computer applications at SAGE University, Indore.I have done my bachelor's from AKS University, Satna.Currently, I have gained the knowledge in the field of web development with various technical skills like HTML, CSS, Bootstrap, Javascript, Python, and MySQL. I am very drawn towards the field of MERN Stack and looking for an full time opportunity in it
-
-          . Working in the area of front-end web Development, learn and grow.
-          
-          . Also gaining information about Back-end development and explorer more.
-          
+        <p>I am Harsh Septa. I am from Indore, Madhya Pradesh. Currently, I have completed 6 Month internship at FXBytes Technologies Pvt. Ltd. of Technologies MERN Stack. and also I am pursuing my master's in computer applications at SAGE University, Indore.I have done my bachelor's from AKS University, Satna. 
+          Currently, I have gained the knowledge in the field of web development with various technical skills like HTML, CSS, Bootstrap, Javascript, React, NodeJs, MangoDB I am very drawn towards the field of MERN Stack and looking for an full time opportunity in it.
+          . Working in the area of web Development, learn and grow.
+          . Also gaining information about Python and Django and explorer more.
           . Gaining different perspective on problem solving techniques using my knowledge
-          
-          . Exploring the tech world and get to learn something new every day.</p>
+          . Exploring the tech world and get to learn something new every day.
+        </p>
           <a href="HarshResumeFinal.pdf" target="_blank"> <button id="resume">View Resume</button></a>
       </div>
     </div>
 
-    <div class="Skill-parent">
+    <div class="Skill-parent" id="skill">
       <div class="skill-part1">
         <h1>My Skill</h1>
       </div>
@@ -70,7 +70,7 @@
     </div>
 
 
-    <div class="Education">
+    <div class="Education" id="education">
       <div class="edu-part1">
         <h1>Education</h1>
           <h3>Master of Computer Application</h3>
@@ -91,7 +91,7 @@
       </div>
     </div>
     
-    <div class="contact-me-parent">
+    <div class="contact-me-parent" id="contact">
       <div class="contact-me-part1">
         <h1>Contact Me</h1>
       <a class="contact-inner" href="https://www.linkedin.com/in/harsh-septa-18ba3123b/">
@@ -108,11 +108,17 @@
       </div>
     </div>
 
+    <div class="topButton">
+     <a href="#home">
+        <img src="./images/upload.png" alt="upward-arrow">
+     </a>
+    </div>
 
     <footer>
       <h2>MERN Developer</h2>
       <a href="https://github.com/HarshSepta12"> <img src="./images/github.svg" alt=""></a>
       <a href="https://www.linkedin.com/in/harsh-septa-18ba3123b/"><img src="./images/linkdin.svg" alt="linkdin"></a>
     </footer>
+
   </body>
 </html>
