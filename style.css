@@ -79,7 +79,7 @@ a {
   margin-top: 200px;
 }
 #my-img {
-  max-width: 300px;
+  max-width: 450px;
   width: 500px;
   /* height: 200px; */
   border-radius: 10px;
@@ -261,7 +261,8 @@ footer a img {
     height: 80px;
   }
   .topButton a img {
-    top: 46rem;
+    top: 20rem;
+    width: 30px;
   }
 }
 @media screen and (max-width: 500px) {
@@ -291,7 +292,7 @@ footer a img {
     margin-top: 0rem;
   }
   #my-img {
-    width: 200px;
+    width: 280px;
   }
   .part2 h1 {
     font-size: 25px;
