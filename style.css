@@ -253,6 +253,15 @@ span {
     cursor: pointer;
 }
 
+#next, #prev{
+  cursor: pointer;
+  padding: 20px;
+  font-size: 25px;
+  background-color: black;
+  border: none;
+  color: white;
+}
+
 .topButton a img {
   width: 40px;
   position: fixed;
