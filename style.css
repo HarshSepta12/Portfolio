@@ -337,3 +337,12 @@ footer a img {
     font-size: 16px;
   }
 }
+
+@media screen and (min-height: 802px){
+  .about-section-parent .part2 p{
+    font-size: 16px;
+  }
+  #my-img{
+    width: 300px;
+  }
+}
