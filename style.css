@@ -214,9 +214,47 @@ span {
   gap: 10px;
 }
 
+.project-parent{
+  padding: 20px;
+ 
+}
+.project-parent h1{
+  text-align: center;
+  font-size: 32px;
+  color: aqua;
+}
+#screenShot{
+  width: 700px;
+  /* text-align: center; */
+}
+.inner-project-parent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.project-parent .inner-project-parent p{
+  font-size: 40px;
+}
+.project-parent .live-next-btn{
+  /* text-align: center; */
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  gap: 100px;
+}
+.project-parent .live-next-btn a button{
+  border-radius: 10px;
+    border: none;
+    background-color: aqua;
+    padding: 12px 22px;
+    font-size: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
 
 .topButton a img {
-  width: 50px;
+  width: 40px;
   position: fixed;
   right: 16px;
   background-color: rgba(255, 255, 255, 0.348);
@@ -244,7 +282,34 @@ footer a img {
   border-radius: 10px;
   margin-top: 40px;
 }
-
+@media screen and (max-width: 850px){
+  .project-parent{
+    margin: auto;
+  }
+  #screenShot{
+    width: 500px;
+  }
+  .project-parent .inner-project-parent p{
+    font-size: 30px;
+  }
+  .project-parent .live-next-btn a button{
+      padding: 8px 18px;
+      font-size: 16px;
+      margin-top: 10px;
+  }
+}
+@media screen and (max-width: 570px){
+  #screenShot{
+    width: 300px;
+  }
+  .project-parent .inner-project-parent p{
+    font-size: 22px;
+  }
+  .project-parent .live-next-btn a button{
+    padding: 6px 16px;
+    font-size: 15px;
+}
+}
 @media screen and (max-width: 530px) {
   .about-section-parent {
     flex-direction: column;
@@ -275,13 +340,27 @@ footer a img {
     top: 20rem;
     width: 30px;
   }
+  .footer h2{
+    font-size: 18px;
+  }
 }
 @media screen and (max-width: 500px) {
   #resume {
     margin-left: 7rem;
   }
 }
-
+@media screen and (max-width: 385px){
+  #screenShot{
+    width: 220px;
+  }
+  .project-parent .inner-project-parent p{
+    font-size: 20px;
+  }
+  .project-parent .live-next-btn a button{
+    padding: 5px 14px;
+    font-size: 14px;
+}
+}
 @media screen and (max-width: 350px){
   #li-nav{
     font-size: 13px;
