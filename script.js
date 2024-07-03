@@ -77,3 +77,31 @@ const Slider = () => {
   setInterval(nextFunction,3000)
 }
 window.onload = Slider
+
+
+// nav section 
+
+document.addEventListener('DOMContentLoaded', function() {
+  // Hamburger menu toggle
+  const hamburgerMenu = document.querySelector('.hamburger-menu');
+  const navCenter = document.querySelector('#nav-center');
+
+  hamburgerMenu.addEventListener('click', function() {
+    this.classList.toggle('change'); // Toggle hamburger animation
+
+    // Toggle menu items visibility
+    if (navCenter.classList.contains('active')) {
+      navCenter.classList.remove('active');
+    } else {
+      navCenter.classList.add('active');
+    }
+  });
+
+  // Close menu when clicking outside on smaller screens
+  window.addEventListener('click', function(e) {
+    if (!navCenter.contains(e.target) && !hamburgerMenu.contains(e.target)) {
+      navCenter.classList.remove('active');
+      hamburgerMenu.classList.remove('change');
+    }
+  });
+});
