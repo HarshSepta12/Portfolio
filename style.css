@@ -432,6 +432,11 @@ footer a img {
     max-width: 400px;
     width: 500px;
 }
+.Skill-parent img {
+  width: 84px;
+  height: 84px;
+  
+}
 }
 
 
@@ -512,7 +517,7 @@ footer a img {
   .project-parent .live-next-btn a button{
     
     padding: 5px 14px;
-    font-size: 14px;
+    font-size: 11px;
 }
 }
 @media screen and (max-width: 350px){
@@ -535,8 +540,12 @@ footer a img {
   .about-section-parent{
     margin-top: 0rem;
   }
+  .about-section-parent .part2 p{
+    margin-left: 50px;
+  }
   #my-img {
     width: 280px;
+    justify-content: center;
   }
   .part2 h1 {
     font-size: 25px;
@@ -544,14 +553,15 @@ footer a img {
   .part2 p{
     font-size: 16px;
   }
-  #resume{
+  #resume {
     font-size: 12px;
     width: 112px;
-    margin-top: -1rem;
-    margin-left: 6rem;
-  }
+    margin-top: 0rem;
+    margin-left: 12rem;
+}
   .Skill-parent{
     margin-top: 6rem;
+    margin-left: 40px;
   }
   .Skill-parent .skill-part1 h1{
     font-size: 25px;
@@ -563,12 +573,20 @@ footer a img {
 
   .Education{
     margin-top: 6rem;
+    margin-left: 50px;
+  }
+  
+  .contact-me-parent{
+    margin-left: 50px;
+  }
+  .project-parent{
+    margin-left: 50px;
   }
   .edu-part1 h1{
     font-size: 25px;
   }
   .edu-part1, .edu-part2, .edu-part3{
-    font-size: 14px;
+    font-size: 16px;
   }
   .contact-me-parent .contact-me-part1 h1 {
     font-size: 25px;
