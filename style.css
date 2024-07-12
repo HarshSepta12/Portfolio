@@ -35,11 +35,14 @@ nav {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+  background-color: gray;
+  z-index: 100;
 }
 a {
   text-decoration: none;
-  color: beige;
+  color: black;
   transition: all 1s ease-in-out;
+  z-index: 100;
 }
 .a:hover{
   color: aqua;
