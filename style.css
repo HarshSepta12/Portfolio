@@ -29,18 +29,19 @@ header{
   top: 0;
   right: 0;
   width: 100%;
+  z-index: 100;
 }
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  background-color: gray;
-  z-index: 100;
+  /* background-color: #134843; */
+  background-color: #000000;
 }
-a {
+.a {
   text-decoration: none;
-  color: black;
+  color: rgb(255, 255, 255);
   transition: all 1s ease-in-out;
   z-index: 100;
 }
