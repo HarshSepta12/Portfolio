@@ -1,7 +1,7 @@
 let images = [
   {image: "./ProjecImages/project1.png",
     src: "https://github.com/HarshSepta12/Quiz_App",
-    live: "https://quiz-app-gold-pi.vercel.app/"
+    live: "https://quiz-app-react-gold.vercel.app/"
   },
   {image: "./ProjecImages/project2.png",
     src: "https://github.com/HarshSepta12/Todo_App",
