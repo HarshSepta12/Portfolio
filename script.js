@@ -27,6 +27,10 @@ let images = [
     src: "https://github.com/HarshSepta12/Receipe_API",
     live: "https://receipe-api.vercel.app/"
   },
+  {image: "/ProjecImages/Screenshot 2024-12-08 023130.png",
+    src: "https://github.com/HarshSepta12/SecondPlace_Frontend",
+    live: "https://second-place-frontend.vercel.app/"
+  },
 ]
 const live = document.querySelector('#live')
 const next = document.querySelector('#next')
